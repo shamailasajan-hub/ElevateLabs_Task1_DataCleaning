@@ -1,5 +1,4 @@
-# --- Medical Appointment No Shows Data Cleaning ---
-# Author: Layeba Sayyed
+
 # Description: This script cleans the Medical Appointment No-Shows dataset step-by-step.
 
 # Step 1: Import libraries
@@ -108,3 +107,4 @@ with open("cleaning_summary.txt", "w") as f:
     f.write(summary)
 
 print("\n📝 Summary saved as 'cleaning_summary.txt'")
+
